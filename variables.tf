@@ -7,14 +7,11 @@ variable "resource_tags" {
   description = "Tags to set for all resources"
   type        = map(string)
   default = {
-    Application = "Produtos-Verdes",
-    Environment = "prd",
-    Owner       = "ebe"
-    CostCenter  = "ebe"
-    BU          = "BU11"
-    Name        = "ebs-produtos-verdes-prod"
-    OrgID       = "ORG0074",
-    GBU         = "GBU01",
+    Application = "APP Roger",
+    Environment = "Dev",
+    Owner       = "Roger"
+    CostCenter  = "DevOps"
+    Name        = "ebs-roger-dev"
     Creator     = "terraform"
 
   }
